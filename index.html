@@ -10,7 +10,7 @@
   <meta property="og:title" content="Nicolas Profile">
   <meta property="og:image" content="images/flitter_m.png">
   <meta property="og:description" content="A budding entrepreneur and coder">
-  <meta property="og:site_name" conent="Flitter" />
+  <meta property="og:site_name" content="Flitter" />
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
@@ -18,14 +18,24 @@
 </head>
 <body>
 
-  <div class="container">
-    <div class="card center-text">
+  <!-- html for the sidebar -->
+  <div id="sidebar" class="center-text">
+    <ul>
+      <li><a href="#intro"><i class="fas fa-home"></i></a></li>
+      <li><a href="#social-media-links"><i class="fab fa-telegram-plane"></i></a></li>
+      <li><a href="#fav-movies"><i class="fas fa-film"></i></a></li>
+    </ul>
+  </div>
+
+  <!-- Outside the sidebar -->
+  <div class="container" id="page-content">
+    <div class="card center-text" id="intro">
       <img class="img-circle" src="images/profile_pic_square.png" alt="Nic profile photo">
       <h1>Nicolas Ang</h1>
       <h2>Founder @ Flitter</h2>
       <p >After 9 years in promoting foreign investments into Singapore and interacting with all sorts of businesses, I've decided to make the leap to build my own product and company, Flitter.</p>
     </div>
-    <div class="card center-text">
+    <div class="card center-text" id="social-media-links">
       <ul class="list-inline">
         <li><a href="https://www.flitter.sg/" target="_blank"><img src="images/flitter_m.png" alt="flitter pic" id="flitter-logo"></a></li>
         <li><a href="https://www.linkedin.com/in/nicolas-ang-5032831b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -33,7 +43,7 @@
         <li><a href=""><i class="fab fa-twitter"></i></a></li>
       </ul>
     </div>
-    <div class="card">
+    <div class="card" id="fav-movies">
       <table>
         <tbody>
           <tr>
@@ -66,7 +76,27 @@
         </tbody>
       </table>
     </div>
-    <div class="card"></div>
+    <div class="card center-text" id="footer" style="text-decoration: none">
+      <h2>About this page</h2>
+      This page has been coded during the <a href="http://lewagon.com/program" target="_blank">FullStack program @LeWagon.</a>
+      <ul class="list-inline">
+        <li>
+           <a href="#">
+            <i class="fa fa-heart"></i>
+           </a>
+        </li>
+        <li>
+           <a href="#">
+            <i class="fa fa-share"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-star"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>

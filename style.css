@@ -18,6 +18,10 @@ h3 {
   color: #ff847b;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
   /*display: inline;*/
@@ -36,8 +40,15 @@ table {
   width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
   padding: 20px;
+  /*box-shadow: 10px 10px 10px rgb(209, 209, 209);*/
+}
+
+.card{
   background: white;
-  box-shadow: 10px 10px 10px rgb(209, 209, 209);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 .img-circle {
@@ -64,11 +75,29 @@ table {
   padding: 0px 20px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #2a363b;
+  font-size: 50px;
+}
+
+#sidebar i {
+  color: white;
+}
+
+#page-content {
+  margin-left: 200px;
+}
+
 #flitter-logo{
   width: 17px;
 }
 
-li > a:visited {
+a:visited {
   text-decoration: none;
   color: #EC6E57;
 }
