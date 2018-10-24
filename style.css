@@ -35,6 +35,7 @@ table {
 .container {
   width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+  padding: 20px;
   background: white;
   box-shadow: 10px 10px 10px rgb(209, 209, 209);
 }
