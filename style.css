@@ -1,0 +1,99 @@
+body{
+  font-family: 'Copse', serif;
+  background: #fefaec;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #e84a5f;
+  font-weight: bold;
+}
+
+h2 {
+  color: #625772;
+}
+
+h3 {
+  color: #ff847b;
+}
+
+li {
+  list-style-type: none;
+  /*display: inline;*/
+  margin: 0px 15px;
+  color: #EC6E57;
+}
+
+table {
+  background: #2a363b;
+  color: #fecea8;
+  border-radius: 6px;
+  padding: 30px 30px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background: white;
+  box-shadow: 10px 10px 10px rgb(209, 209, 209);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.image-resize-and-margin {
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#flitter-logo{
+  width: 17px;
+}
+
+li > a:visited {
+  text-decoration: none;
+  color: #EC6E57;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .movie-pic {
+    width: 150px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .movie-pic {
+    width: 50px;
+  }
+}
